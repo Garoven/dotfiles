@@ -1,0 +1,13 @@
+{ 
+	"rust-analyzer.server.path": "$HOME/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rust-analyzer", 
+  "rust-analyzer.check.command": "clippy",
+  "rust-analyzer.checkOnSave.allTargets": false,
+  "workspace.ignoredFolders": [
+    "$HOME",
+    "$HOME/.cargo/**",
+    "$HOME/.rustup/**"
+  ],
+  "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/16.0.2/clangd_16.0.2/bin/clangd",
+  "explorer.icon.enableNerdfont": true,
+	//"rust-analyzer.cargo.allFeatures": true,
+}
